@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'algerianregular';
-    src: url('algerian_regular-webfont.woff2') format('woff2'),
-         url('algerian_regular-webfont.woff') format('woff');
+    src: url('https://github.com/24PAnanya/CS102-LAB4/blob/main/css/algerian_regular-webfont.woff2') format('woff2'),
+         url('https://github.com/24PAnanya/CS102-LAB4/blob/main/css/algerian_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
