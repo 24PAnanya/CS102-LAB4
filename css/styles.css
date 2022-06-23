@@ -20,10 +20,21 @@ body {
     padding-top: 50px;
 }
 
-a:link { color: #000000; }
-a:visited { color: #730047; }
-a:hover { color: #005203; }
-a:active { color: #250084 }
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #730047;
+}
+
+a:hover {
+    color: #005203;
+}
+
+a:active {
+    color: #250084;
+}
 
 #about_us_title {
     font-family: Calibri;
