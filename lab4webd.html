@@ -9,23 +9,32 @@
             }
             h1 {
                 text-align: center;
-                color: rgb(7, 78, 54);
+                color: white;
                 font-family: "Lucida Handwriting", cursive;
-                font-size: 40px;
+                font-size: 60px;
+                text-shadow:2px 2px 5px black;
+                
+             
+
             }
             h2 {
                 text-align: center;
-                color: rgb(10, 93, 161);
+                color: orange;
                 font-family: "Verdana", Sans-serif;
                 font-size: 20px;
+                text-shadow:.5px .5px  black;
             }
             h3 {
                 text-align: left;
-                color: rgb(7, 63, 14);
+                color: white;
                 font-family: "Times New Roman";
                 font-size: 20px;
-                background-color: rgb(131, 224, 139);
+                background-color: #00789D;
                 border-style:inset;
+                text-shadow:.5px .5px  black;
+                padding: 10px;
+                border-bottom: 5px solid orange;
+            
             }
             th {
                 text-align: center;
@@ -50,20 +59,127 @@
                 font-family: "Verdana", Sans-serif;
                 font-size: 20px;
             }
+
+            .foot{
+                color: white;
+                text-decoration: none;
+                text-shadow: .5px .5px white;
+            }
+
+            .foot:hover{
+                text-decoration: underline;
+                color: red;
+            }
+            .abc{
+                text-decoration: none;
+                background-color: #00789D;
+                color: orange;
+            }
+
+
+
+            ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#00789D ;
+}
+
+li {
+  float: left;
+}
+
+li a, .drop {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .drop {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #00789D;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
             
 
         </style>
     </head>
-    <body style="background-color:rgb(209, 243, 157)">
-        <div style="background-color: rgb(114, 173, 19)">
+    <body style="background-color:white">
+        
+        <div>
+            <ul>
+                <li><a href="https://indiancc.mygov.in/wp-content/uploads/2020/12/mygov-9999999991250280701.pdf">Home</a></li>
+                <li><a href="https://thewire.in/tag/green-india">News</a></li>
+                <li class="dropdown">
+                  <a href="#" class="drop">Dropdown</a>
+                  <div class="dropdown-content">
+                    <a href="https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1813175">Targets sets under Green India Mission</a>
+                    <a href="https://www.indiascienceandtechnology.gov.in/st-visions/national-mission/national-mission-green-india-gim">National Mission for Green India</a>
+                    <a href="https://jkforest.gov.in/assets/pdf/gim/GIM_Mission-Document-1.pdf">Ministry of Environment and Forests</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          
+
+        <div style="background-color: #00789D">
         <h1>HOPE FOR EARTH</h1>
         <h2>- "Are we watching them die? Or they are watching us!"</h2>
-        <hr>
+
+
+            
         </div>
+
+        
+      
+    
+
+
+        <img src="img/background.jpg" alt="error"  width="100%">
+    
         
         <p id="first">
             <a href="https://www.earthday.org/india/"><img src="https://oceanservice.noaa.gov/ocean/earthday-infographic-large.jpg" alt="Protect our planet" height="600" width="100%" /></a>
-            <hr>
+        
+            <div>
+                <table><tr>
+                    <td><img src="https://media.istockphoto.com/photos/green-globe-with-world-map-isolated-on-white-picture-id1032603574?b=1&k=20&m=1032603574&s=170667a&w=0&h=3ldG2U7m_Sy9nBu6khLaI3fnQ2mSRo10rFJRweHSgog=" alt=""></td>
+                    <td><p>Planting trees and ensuring that the survival rate is high is one of the responsibilities that Art of Living takes seriously. It is promising to note that trees planted have achieved a 90% survival rate. This has been possible due to various methodologies being incorporated including organic techniques for proper plantation and drip irrigation.
+
+                    Furthermore, protection from animals by digging deep trenches is another cost effective technique adopted here. Daily monitoring on a continuous basis has been a critical factor to detect and avoid any unforeseen mishaps. This process is scheduled for another year, after which trees will continue to grow naturally.
+              </p></td></tr></table></div>
+                
+            
+            </div></p>
+
             <h3>Blogs</h3>
             <table BORDER="0" CELLSPACING="5">
                 <tr>
@@ -91,31 +207,51 @@
                         Forests are our mother because they are home to three-quarters of the planet's life on land and provide clean air and water. Forests are simply the best nature-based solution to address the climate crisis, and we must do what we can to protect them. <a href="https://www.worldwildlife.org/blogs/sustainability-works/posts/for-the-love-of-forests"> Here, join with WWF's sustainability work to save forests and our future.</a>
                     </td>
                     <td>
-                        We can buy fuels but not energies. By using energy more wisely, we can reduce our dependence on these finite resources. So, preserve the basic human need. <a href="https://i.pinimg.com/originals/d7/65/b0/d765b018b9f8642240ae1bea3dd6048a.jpg"> Here, join with WWF's sustainability work to save energy and our future.</a>
+                        We can buy fuels but not energies. By using energy more wisely, we can reduce our dependence on these finite resources. So, preserve the basic human need. <a href="https://www.worldwildlife.org/pages/wwf-and-renewable-energy"> Here, join with WWF's sustainability work to save energy and our future.</a>
                     </td>
                 </tr>
             </table>
-            <hr>
-            <h3>Contribute positively to the environment by purchasing sustainable alternatives. <a href="ecohoy.com">Click here to know more.</a></h3>
-            <hr>
-            <h3>Important Links</h3>
-            <h4>Eco Websites-</h4>
-            <ul>
-                <li><a href="https://www.treehugger.com/">Treehugger</a></li>
-                <li><a href="https://grist.org/">Grist</a></li>
-                <li><a href="https://www.nationalgeographic.com/environment">National Geographic</a></li>
-                <li><a href="https://www.greenpeace.org/india/en/">Greenpeace</a></li>
-            </ul>
-            <h4>Government Websites-</h4>
-            <ul>
-                <li><a href="http://www.indiaenvironmentportal.org.in/">Indian Environment Portal</a></li>
-                <li><a href="https://www.neeri.res.in/#googtrans(en|en)">CSIR</a></li>
-                <li><a href="https://parivesh.nic.in/">Parivesh</a></li>
-                <li><a href="https://www.india.gov.in/topics/environment-forest">National Portal of India</a></li>
-            </ul>
-            <hr>
-            <h3>Contact Us</h3>
-        
+            
+            <h3>Contribute positively to the environment by purchasing sustainable alternatives.
+                 <a href="https://www.ecohoy.com/" 
+                 style="color: orange; text-decoration: underline;">Click here to know more.</a></h3>
+            <div style="background-color: #00789D;color:orange;font-size:x-large;">Important Links :</div>
+            
+
+            <table style="color:white
+            ; width: 100%; background: #00789D;">
+                <tr>
+                    <th><h4 class="abc" style="text-align: center;">Eco Websites-</h4></th>
+                    <th><h4 class="abc" style="text-align: center;">Government Websites-</h4></th>
+                    
+                </tr>
+                <tr>
+                    <td><a class="foot" href="https://www.treehugger.com/">Treehugger</a></td>
+                    <td><a class="foot" href="http://www.indiaenvironmentportal.org.in/">Indian Environment Portal</a></td>
+                </tr>
+                <tr>
+                    
+                    <td><a class="foot" href="https://www.greenpeace.org/india/en/">Greenpeace</a></td>
+                    <td><a class="foot" href="https://www.neeri.res.in/#googtrans(en|en)">CSIR</a></td>
+                </tr>
+                
+                    <tr>
+                        <td><a class="foot" href="https://www.nationalgeographic.com/environment">National Geographic</a></td>
+                        <td><a class="foot" href="https://parivesh.nic.in/">Parivesh</a></td>
+                        
+                    </tr>
+                    <tr>
+                        
+                        <td><a class="foot" href="https://grist.org/">Grist</a></td>
+                        <td><a class="foot" href="https://www.india.gov.in/topics/environment-forest">National Portal of India</a></td>
+                     
+                        
+                    </tr>
+                
+                <tr><td><a class="abc" href="#" style="text-align: left; align-items: flex-start;"><br><br>  Contact Us : ashishsinghrathaur14@gmail.com , ananya.purkait.21033@iitgoa.ac.in , adithya.sajeevan.21033@iitgoa.ac.in</a></td></tr>
+            </table>
+            
+            
         </p>
     </body>
 </html>
