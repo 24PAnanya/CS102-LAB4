@@ -1,6 +1,55 @@
-h1 {
+body {
+    background-image: url('https://github.com/24PAnanya/CS102-LAB4/blob/main/img/seedling.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#title {
     text-align: center;
-    font-family: Georgia;
-    font-size: 166px;
-    color: blue;
+    font-size: 75px;
+    color: #222A35;
+    font-family: Algerian;
+    padding-top: 80px;
+}
+
+#link {
+    text-align: center;
+    font-size: 20px;
+    font-family: Calibri;
+    padding-top: 50px;
+}
+
+mark { background-color: #C0C0C0; }
+
+#about_us_title {
+    font-family: Calibri;
+    font-size: 25px;
+    padding-left: 800px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+p {
+    line-height: 27.5px;
+    margin-top: 0;
+    margin-bottom: 7.5px;
+}
+
+#about_us_desc {
+    font-family: Calibri;
+    font-size: 20px;
+    padding-left: 800px;
+    text-align: justify;
+    width: 650px;
+    text-indent: 20px;
+    padding-top: 60px;
+}
+
+#thank_you {
+    font-family: Calibri;
+    font-size: 20px;
+    padding-left: 800px;
+    text-align: justify;
+    width: 650px;
 }
