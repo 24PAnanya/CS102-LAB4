@@ -1,0 +1,71 @@
+p.first {
+    background-image: url("https://image.freepik.com/free-photo/close-up-nature-view-green-leaf-blurred-greenery-background-sunlight-with-bokeh-copy-space-using-as-background-natural-plants-landscape_105035-801.jpg");
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Lucida Handwriting";
+    font-size: 70px;
+    text-shadow:2px 2px 5px black;
+    margin-bottom: 0px;
+}
+h2 {
+    margin-top: 1px;
+    font-weight: normal;
+    text-align: center;
+    color: orange;
+    font-family: "Brush Script MT";
+    font-size: 50px;
+    text-shadow:.5px .5px  black;
+}
+h3 {
+    text-align: left;
+    color: white;
+    font-family: "Bahnschrift SemiBold";
+    font-size: 20px;
+    background-color: #00789D;
+    border-style: inset;
+    text-shadow:.5px .5px  black;
+    padding: 10px;
+    padding-left: 30px;
+    border-bottom: 5px solid orange;
+}
+th {
+    text-align: center;
+    color: rgb(21, 101, 133);
+    font-family: "Verdana";
+    font-size: 20px;
+    
+}
+td {
+    text-align: center;
+    color: rgb(4, 13, 27);
+    font-family: "Arial";   
+}
+li {
+    text-align: left;
+    color: rgb(4, 13, 27);
+    font-family: "Arial";   
+}
+h4 {
+    text-align: left;
+    color: rgb(10, 93, 161);
+    font-family: "Verdana", Sans-serif;
+    font-size: 20px;
+}
+
+.foot{
+    color: white;
+    text-decoration: none;
+    text-shadow: .5px .5px white;
+}
+
+.foot:hover{
+    text-decoration: underline;
+}
+.abc{
+    text-decoration: none;
+    background-color: #00789D;
+    color: orange;
+}
