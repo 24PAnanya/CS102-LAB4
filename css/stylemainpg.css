@@ -1,0 +1,194 @@
+p.first {
+    background-image: url("https://image.freepik.com/free-photo/close-up-nature-view-green-leaf-blurred-greenery-background-sunlight-with-bokeh-copy-space-using-as-background-natural-plants-landscape_105035-801.jpg");
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px black;
+
+
+
+}
+
+h2 {
+    text-align: center;
+    color: orange;
+    font-family: "Verdana", Sans-serif;
+    font-size: 20px;
+    text-shadow: .5px .5px black;
+}
+
+h3 {
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    background-color: #00789D;
+    border-style: inset;
+    text-shadow: .5px .5px black;
+    padding: 10px;
+    border-bottom: 5px solid orange;
+
+}
+
+th {
+    text-align: center;
+    color: rgb(21, 101, 133);
+    font-family: "Verdana";
+    font-size: 20px;
+
+}
+
+td {
+    text-align: center;
+    color: rgb(4, 13, 27);
+    font-family: "Arial";
+}
+
+li {
+    text-align: left;
+    color: rgb(4, 13, 27);
+    font-family: "Arial";
+}
+
+h4 {
+    text-align: left;
+    color: rgb(10, 93, 161);
+    font-family: "Verdana", Sans-serif;
+    font-size: 20px;
+}
+
+.foot {
+    color: white;
+    text-decoration: none;
+    text-shadow: .5px .5px white;
+}
+
+.foot:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.abc {
+    text-decoration: none;
+    background-color: #00789D;
+    color: orange;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00789D;
+}
+
+li {
+    float: left;
+
+
+}
+
+.null {
+
+
+    text-align: left;
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    background-color: #00789D;
+    border-style: inset;
+    text-shadow: .5px .5px black;
+    padding: 10px;
+    margin-bottom: 0px;
+
+}
+
+li a,
+.drop {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .drop {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #00789D;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.zoom {
+    padding: 5px;
+    transition: transform .2s;
+    width: 180px;
+    height: 180px;
+    margin: 0;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.tooltip {
+    position: center;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
